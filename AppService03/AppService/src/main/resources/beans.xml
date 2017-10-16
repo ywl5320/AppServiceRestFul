@@ -20,7 +20,7 @@
         <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
         <property name="jdbcUrl" value="jdbc:mysql:///app_server_db"></property>
         <property name="user" value="root"></property>
-        <property name="password" value="ywl19900930"></property>
+        <property name="password" value="123456"></property>
     </bean>
 
     <!-- 配置sessionFactory -->
