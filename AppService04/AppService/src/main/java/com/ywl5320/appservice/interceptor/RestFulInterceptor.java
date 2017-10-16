@@ -63,7 +63,7 @@ public class RestFulInterceptor implements HandlerInterceptor {
 			else
 			{
 				RestFulBean<TokenBean> resuFulBean = RestFulUtil.getInstance().getResuFulBean(null, 1, "用户身份验证失败");
-				response.setCharacterEncoding("UTF-8");
+				response.setContentType("application/json;charset=UTF-8");
 				Writer writer = response.getWriter();
 				writer.write(JSONObject.toJSONString(resuFulBean, SerializerFeature.WriteMapNullValue));
 				return false;
