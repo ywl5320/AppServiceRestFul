@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ywl5320.appservice.bean.UserBean" table="t_user">
+        <id name="id" column="id">
+            <generator class="native"></generator>
+        </id>
+        <property name="phone" column="phone"></property>
+        <property name="password" column="password"></property>
+        <property name="username" column="username"></property>
+        <property name="sex" column="sex"></property>
+        <property name="age" column="age"></property>
+    </class>
+
+</hibernate-mapping>
