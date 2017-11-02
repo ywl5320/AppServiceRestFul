@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ywl5320.appservice.bean.UserBean" table="t_user">
+        <id name="id" column="id">
+            <generator class="native"></generator>
+        </id>
+        <property name="phone" column="phone"></property>
+        <property name="password" column="password"></property>
+        <property name="username" column="username"></property>
+        <property name="sex" column="sex"></property>
+        <property name="age" column="age"></property>
+    </class>
+
+    <class name="com.ywl5320.appservice.bean.TokenBean" table="t_token">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="phone" column="phone"></property>
+        <property name="token" column="token"></property>
+    </class>
+
+    <class name="com.ywl5320.appservice.bean.OrderBean" table="t_order">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="userId" column="userId"></property>
+        <property name="phone" column="phone"></property>
+        <property name="orderNo" column="orderNo"></property>
+        <property name="payMoney" column="payMoney"></property>
+        <property name="payGoods" column="payGoods"></property>
+        <property name="payStatus" column="payStatus"></property>
+        <property name="payTime" column="payTime"></property>
+        <property name="payWay" column="payWay"></property>
+    </class>
+
+    <class name="com.ywl5320.appservice.bean.UpdateBean" table="t_update">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="md5value" column="md5value"></property>
+        <property name="versioncode" column="versioncode"></property>
+        <property name="versionName" column="versionName"></property>
+        <property name="newversioncode" column="newversioncode"></property>
+        <property name="newversionName" column="newversionName"></property>
+        <property name="filesize" column="filesize"></property>
+        <property name="patchsize" column="patchsize"></property>
+        <property name="downloadpath" column="downloadpath"></property>
+        <property name="patchdownloadpath" column="patchdownloadpath"></property>
+        <property name="channelid" column="channelid"></property>
+    </class>
+
+</hibernate-mapping>
