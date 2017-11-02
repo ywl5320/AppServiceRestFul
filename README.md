@@ -7,8 +7,12 @@
 #### [移动大脑-SpringMVc搭建RestFul后台服务（四）-添加Token过滤器](http://blog.csdn.net/ywl5320/article/details/78250000)
 #### [移动大脑-SpringMVc搭建RestFul后台服务（五）-支付宝支付](http://blog.csdn.net/ywl5320/article/details/78284477)
 #### [移动大脑-SpringMVc搭建RestFul后台服务（六）-微信支付（Android）](http://blog.csdn.net/ywl5320/article/details/78294494)
+#### [移动大脑-SpringMVc搭建RestFul后台服务（七）-增量更新](http://blog.csdn.net/ywl5320/article/details/78426756)
 
 ### 实例图：
+![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/update1.gif)<br/>
+![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/update2.gif)<br/>
+![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/1.png)<br/>
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/1.png)<br/>
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/2.png)<br/>
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/3.png)<br/>
