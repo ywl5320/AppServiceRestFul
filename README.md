@@ -12,12 +12,15 @@
 ### 实例图：
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/update1.gif)
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/update2.gif)<br/>
-![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/1.png)<br/>
-![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/2.png)<br/>
+![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/2.png)
 ![image](https://github.com/wanliyang1990/AppServiceRestFul/blob/master/imgs/3.png)<br/>
 
 
-## 说明：
-#### 使用支付宝或微信支付功能时，需要把相关的APPID等信息替换为自己的。然后微信支付包名还需要改成自己申请的，推荐一种快速修改微信包名的方式：在gradle中把applicationId改成自己的，然后创建相应的包名并添加wxapi文件夹用自己的keystore打包就可以了。
+## 使用说明：
+### 服务端
+#### 使用支付宝或微信支付功能时，需要在PayService.java中把相关的APPID等信息替换为自己的。然后微信支付包名还需要改成自己申请的，推荐一种快速修改微信包名的方式：在gradle中把applicationId改成自己的，然后创建相应的包名并添加wxapi文件夹用自己的keystore打包就可以了。
+#### 在文件beans.xml中修改mysql数据库为自己的数据库，自己的mysql登录用户名和密码
+### 客户端
+#### 修改HttpMethod中的URL为自己服务器的URL和下载地址。
 
 Create By: ywl5320
