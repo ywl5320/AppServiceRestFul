@@ -137,7 +137,7 @@ public class UpdateService {
                 break;
             }
         }
-        if(nfile == null)
+        if(newfile == null)
             return null;
 
         System.out.println("oldfile:" + md5File.getAbsolutePath());
