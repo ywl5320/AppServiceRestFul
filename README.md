@@ -1,5 +1,6 @@
 # AppServiceRestFul
-## [我的视频课程：《FFmpeg打造Android万能音频播放器》](https://edu.csdn.net/course/detail/6842)
+## [我的视频课程（基础）：《（NDK）FFmpeg打造Android万能音频播放器》](https://edu.csdn.net/course/detail/6842)
+## [我的视频课程（进阶）：《（NDK）FFmpeg打造Android视频播放器》](https://edu.csdn.net/course/detail/8036)
 ### 博客地址：
 #### [移动大脑-SpringMVc搭建RestFul后台服务（一）-环境搭建](http://blog.csdn.net/ywl5320/article/details/78152741)
 #### [移动大脑-SpringMVc搭建RestFul后台服务（二）-配置mysql数据库](http://blog.csdn.net/ywl5320/article/details/78239008)
