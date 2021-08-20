@@ -14,6 +14,7 @@ import com.ywl5320.appservice.util.MD5;
 import com.ywl5320.appservice.util.RestFulUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
@@ -21,6 +22,7 @@ import java.util.*;
  * Created by ywl5320 on 2017/10/19.
  */
 @Transactional
+@Service
 public class PayService {
 
     public static final String ALI_APPID = "";
