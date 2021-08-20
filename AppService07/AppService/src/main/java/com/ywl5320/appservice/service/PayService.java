@@ -15,13 +15,14 @@ import com.ywl5320.appservice.util.RestFulUtil;
 import com.ywl5320.appservice.util.Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-
+import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
  * Created by ywl5320 on 2017/10/19.
  */
 @Transactional
+@Service
 public class PayService {
 
     /**
